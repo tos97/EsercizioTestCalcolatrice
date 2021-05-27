@@ -10,21 +10,32 @@ public class nPrimo {
     }
 
     public void stampa(){
-        if (n%i == 0) {
-            if (i > n/2)
+            if (calcola(i))
                 System.out.println("Numero primo\n");
             else{
                 System.out.println("Numero non primo\n");
             }
+    }
+
+    public boolean calcola(int p){
+        if (n == 1)
+            return true;
+        if (n%p == 0) {
+            if (p > (n / 2)) {
+                return true;
+            }
+            else {
+                return false;
+            }
         }
         else{
-            if(i == 2){
-                i++;
-                stampa();
+            if(p == 2){
+                p++;
+                return calcola(p);
             }
             else{
-                i+=2;
-                stampa();
+                p+=2;
+                return calcola(p);
             }
         }
     }

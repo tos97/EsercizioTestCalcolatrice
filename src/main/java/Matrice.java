@@ -3,7 +3,7 @@ import java.util.Random;
 public class Matrice {
 
     private int[][] matrix;
-    private int bound = 10;
+    private int bound = 30;
     Random rm = new Random();
 
     /**
@@ -26,7 +26,7 @@ public class Matrice {
      * In questa carica si scegle il bound per il random
      * @param b bound per random
      */
-    public void carica( int b){
+    public void carica(int b){
         this.bound = b;
         for(int i = 0;i < matrix.length;i++){
             for(int j = 0;j < matrix[1].length;j++){
@@ -35,7 +35,7 @@ public class Matrice {
         }
     }
 
-    public void orizzontale(){
+    public void verticale(){
         System.out.println("\nSTAMPA VERTICALE:");
         for(int i = 0;i < matrix.length;i++){
             for(int j = 0;j < matrix[i].length;j++){
@@ -45,13 +45,13 @@ public class Matrice {
         }
     }
 
-    public void verticale(){
+    public void orizzontale(){
         System.out.println("\nSTAMPA ORIZONTALE:");
         for(int i = 0;i < matrix.length;i++){
             for(int j = 0;j < matrix[i].length;j++){
                 if (matrix[i][j] > 9)
                     System.out.print(" |" + matrix[i][j] + "| ");
-                if (matrix[i][j] < 9)
+                if (matrix[i][j] <= 9)
                     System.out.print("  |" + matrix[i][j] + "| ");
             }
             System.out.println();

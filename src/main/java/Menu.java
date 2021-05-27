@@ -24,10 +24,9 @@ public class Menu {
     }
 
     public void gestoreFattoriale() {
-        BigInteger s = BigInteger.ONE;
         System.out.println("Inserisci un numero:");
         n = sc.nextInt();
-        Fattoriale f = new Fattoriale(n, s);
+        Fattoriale f = new Fattoriale(n);
         System.out.print("\n" + n + "! = ");
         f.stampa();
     }

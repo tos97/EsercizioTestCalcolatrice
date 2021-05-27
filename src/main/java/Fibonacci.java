@@ -25,4 +25,8 @@ public class Fibonacci {
             stampa();
         }
     }
+
+    //public BigInteger elemento(){
+
+
 }
