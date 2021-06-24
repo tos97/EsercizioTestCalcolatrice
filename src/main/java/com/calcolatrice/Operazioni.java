@@ -1,3 +1,5 @@
+package com.calcolatrice;
+
 import java.util.Scanner;
 
 public class Operazioni {
@@ -5,7 +7,7 @@ public class Operazioni {
     private char k;
 
     /**
-     * Costruttore Operazioni
+     * Costruttore com.calcolatrice.Operazioni
      * @param a numero 1 da salvare preso dalla tastira
      * @param b numero 2 da salvare preso dalla tastira
      * @param k operando da salvare preso dalla tastira

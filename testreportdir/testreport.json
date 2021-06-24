@@ -1,0 +1,471 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 142878000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "two number 15 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 11
+                },
+                {
+                  "val": "5",
+                  "offset": 18
+                }
+              ],
+              "location": "CalcolatriceStep.setNumber(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Calculator sum",
+        "description": "",
+        "id": "exercise-on-calculator;calculator-sum",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "result sum is 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 14
+                }
+              ],
+              "location": "CalcolatriceStep.resultSum(float)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 152400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "two number 15 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 11
+                },
+                {
+                  "val": "5",
+                  "offset": 18
+                }
+              ],
+              "location": "CalcolatriceStep.setNumber(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Calculator dif",
+        "description": "",
+        "id": "exercise-on-calculator;calculator-dif",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 95800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "result dif is 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 14
+                }
+              ],
+              "location": "CalcolatriceStep.resultDif(float)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 132400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "two number 15 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 11
+                },
+                {
+                  "val": "5",
+                  "offset": 18
+                }
+              ],
+              "location": "CalcolatriceStep.setNumber(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Calculator mpy",
+        "description": "",
+        "id": "exercise-on-calculator;calculator-mpy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "result mpy is 75",
+            "match": {
+              "arguments": [
+                {
+                  "val": "75",
+                  "offset": 14
+                }
+              ],
+              "location": "CalcolatriceStep.resultMpy(float)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@Calculator"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 150400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "two number 15 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 11
+                },
+                {
+                  "val": "5",
+                  "offset": 18
+                }
+              ],
+              "location": "CalcolatriceStep.setNumber(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Calculator div",
+        "description": "",
+        "id": "exercise-on-calculator;calculator-div",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "result div is 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 14
+                }
+              ],
+              "location": "CalcolatriceStep.resultDiv(float)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@Calculator"
+          }
+        ]
+      }
+    ],
+    "name": "Exercise on calculator",
+    "description": "",
+    "id": "exercise-on-calculator",
+    "keyword": "Feature",
+    "uri": "Calcolatrice.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Calculator sum with DataTables",
+        "description": "",
+        "id": "exercise-on-calculator-with-scenario-outline;calculator-sum-with-datatables;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 191200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "number 10 and 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 7
+                },
+                {
+                  "val": "10",
+                  "offset": 14
+                }
+              ],
+              "location": "DataProvaCalcolatrice.setNumberDataTable(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "result sum DataTable is 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 24
+                }
+              ],
+              "location": "DataProvaCalcolatrice.resultSumDataTable(float)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Outline"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Calculator sum with DataTables",
+        "description": "",
+        "id": "exercise-on-calculator-with-scenario-outline;calculator-sum-with-datatables;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 180100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "number 10 and 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 7
+                },
+                {
+                  "val": "15",
+                  "offset": 14
+                }
+              ],
+              "location": "DataProvaCalcolatrice.setNumberDataTable(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "result sum DataTable is 25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 24
+                }
+              ],
+              "location": "DataProvaCalcolatrice.resultSumDataTable(float)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Outline"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Calculator sum with DataTables",
+        "description": "",
+        "id": "exercise-on-calculator-with-scenario-outline;calculator-sum-with-datatables;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 123700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "number 25 and 25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 7
+                },
+                {
+                  "val": "25",
+                  "offset": 14
+                }
+              ],
+              "location": "DataProvaCalcolatrice.setNumberDataTable(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "result sum DataTable is 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 24
+                }
+              ],
+              "location": "DataProvaCalcolatrice.resultSumDataTable(float)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Outline"
+          }
+        ]
+      }
+    ],
+    "name": "Exercise on calculator with Scenario outline",
+    "description": "\r\nRule: Only DataTable",
+    "id": "exercise-on-calculator-with-scenario-outline",
+    "keyword": "Feature",
+    "uri": "CalcolatriceTable.feature"
+  }
+]

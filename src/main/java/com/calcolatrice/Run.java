@@ -1,3 +1,5 @@
+package com.calcolatrice;
+
 import java.util.Scanner;
 
 public class Run {
@@ -6,7 +8,7 @@ public class Run {
         Menu M = new Menu();
         int n;
         do {
-            System.out.println("MENU\n 0) Uscita\n 1) Matrici\n 2) Piramide\n 3) Operazioni\n 4) Fattoriale\n 5) Controllo se N è Primo\n 6) Fibonacci");
+            System.out.println("MENU\n 0) Uscita\n 1) Matrici\n 2) com.calcolatrice.Piramide\n 3) com.calcolatrice.Operazioni\n 4) com.calcolatrice.Fattoriale\n 5) Controllo se N è Primo\n 6) com.calcolatrice.Fibonacci");
             n = sc.nextInt();
             System.out.println();
             switch (n){

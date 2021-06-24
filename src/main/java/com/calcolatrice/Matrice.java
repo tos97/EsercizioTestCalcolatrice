@@ -1,3 +1,5 @@
+package com.calcolatrice;
+
 import java.util.Random;
 
 public class Matrice {
@@ -7,7 +9,7 @@ public class Matrice {
     Random rm = new Random();
 
     /**
-     * Costruttore Matrice
+     * Costruttore com.calcolatrice.Matrice
      * @param matrice carico la matrice con le dimensioni definite
      */
     public Matrice(int[][] matrice){

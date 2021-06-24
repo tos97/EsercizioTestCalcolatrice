@@ -1,3 +1,5 @@
+package com.calcolatrice;
+
 import java.math.BigInteger;
 
 public class Fattoriale {
@@ -5,7 +7,7 @@ public class Fattoriale {
     private BigInteger s;
 
     /**
-     * Costruttore Fattoriale
+     * Costruttore com.calcolatrice.Fattoriale
      * @param n numero da fattoriazzare
      */
     public Fattoriale(int n){

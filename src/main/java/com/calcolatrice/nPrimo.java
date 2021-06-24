@@ -1,3 +1,5 @@
+package com.calcolatrice;
+
 public class nPrimo {
     private int n,i = 2;
 

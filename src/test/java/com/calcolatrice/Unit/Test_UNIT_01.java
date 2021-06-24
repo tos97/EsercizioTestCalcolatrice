@@ -1,10 +1,12 @@
+package com.calcolatrice.Unit;
+
+import com.calcolatrice.*;
+import org.junit.Assert;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.ValueSource;
 
 import java.math.BigInteger;
-import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
@@ -21,14 +23,14 @@ public class Test_UNIT_01 {
     @DisplayName("Fattotiale")
     @CsvSource({"5,120", "7,5040"})
     void Test_001_Fattoriale(int value, int risultato){
-        assertEquals(BigInteger.valueOf(risultato), new Fattoriale().calcola(value));
+        Assert.assertEquals(BigInteger.valueOf(risultato), new Fattoriale().calcola(value));
     }
 
     @ParameterizedTest(name = "N ricercato: {0}")
     @DisplayName("Numero Primo")
     @CsvSource({"5,true", "7,true", "10,false", "15,false"})
     void Test_002_nPrimo(int value, boolean risultato){
-        assertEquals(risultato, new nPrimo(value).calcola(2));
+        Assert.assertEquals(risultato, new nPrimo(value).calcola(2));
     }
 
     @ParameterizedTest(name = "N righe: {0}")
@@ -41,6 +43,7 @@ public class Test_UNIT_01 {
     @ParameterizedTest(name = "Calcolo: {0} + {1} = {2}")
     @DisplayName("Controllo Somma")
     @CsvSource({"5,2,7", "4,3,7", "4,6,10", "10,5,15"})
+    @Tag("Calculator")
     void Test_004_OpSomma(float a, float b, float c){
         Assertions.assertEquals(c, new Operazioni().somma(a,b));
     }
@@ -48,6 +51,7 @@ public class Test_UNIT_01 {
     @ParameterizedTest(name = "Calcolo: {0} - {1} = {2}")
     @DisplayName("Controllo Sottrazione")
     @CsvSource({"5,2,3", "4,3,1", "4,6,-2", "10,5,5"})
+    @Tag("Calculator")
     void Test_005_OpSottrazione(float a, float b, float c){
         Assertions.assertEquals(c, new Operazioni().sottrazione(a,b));
     }
@@ -55,6 +59,7 @@ public class Test_UNIT_01 {
     @ParameterizedTest(name = "Calcolo: {0} * {1} = {2}")
     @DisplayName("Controllo Prodotto")
     @CsvSource({"5,2,10", "4,3,12", "4,6,24", "10,5,50"})
+    @Tag("Calculator")
     void Test_006_OpProdotto(float a, float b, float c){
         Assertions.assertEquals(c, new Operazioni().moltiplicazione(a,b));
     }
@@ -62,12 +67,13 @@ public class Test_UNIT_01 {
     @ParameterizedTest(name = "Calcolo: {0} / {1} = {2}")
     @DisplayName("Controllo Divisione")
     @CsvSource({"5,2,2.5", "4,2,2", "6,3,2", "10,5,2"})
+    @Tag("Calculator")
     void Test_007_Divisione(float a, float b, float c){
         Assertions.assertEquals(c, new Operazioni().divisione(a,b));
     }
 
-    @ParameterizedTest(name = "Matrice: [{0}][{1}]")
-    @DisplayName("Matrice")
+    @ParameterizedTest(name = "com.calcolatrice.Matrice: [{0}][{1}]")
+    @DisplayName("com.calcolatrice.Matrice")
     @CsvSource({"5,2,0", "4,3,1", "4,6,0", "10,5,0"})
     void Test_008_Matrice(int a, int b, int c){
         Matrice m = new Matrice(new int[a][b]);

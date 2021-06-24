@@ -1,3 +1,5 @@
+package com.calcolatrice;
+
 import java.math.BigInteger;
 
 public class Fibonacci {
@@ -5,7 +7,7 @@ public class Fibonacci {
     private BigInteger k = BigInteger.ONE, p = BigInteger.ZERO;
 
     /**
-     * Costruttore Fibonacci
+     * Costruttore com.calcolatrice.Fibonacci
      * @param n numero di elementi da stampare
      */
     public Fibonacci(int n){

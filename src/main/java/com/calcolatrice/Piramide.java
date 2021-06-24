@@ -1,9 +1,11 @@
+package com.calcolatrice;
+
 public class Piramide {
 
     private int n;
 
     /**
-     * Costruttore Piramide
+     * Costruttore com.calcolatrice.Piramide
      * @param n numero di righe che andranno stampate
      */
     public Piramide(int n){

@@ -1,4 +1,5 @@
-import java.math.BigInteger;
+package com.calcolatrice;
+
 import java.util.Scanner;
 
 public class Menu {
@@ -83,7 +84,7 @@ public class Menu {
     }
 
     public void gestorePiramide(){
-        System.out.println("Esercizio Piramide");
+        System.out.println("Esercizio com.calcolatrice.Piramide");
         System.out.println("Inserisci numero di righe da stampare:");
         n = sc.nextInt();
         Piramide p = new Piramide(n);
